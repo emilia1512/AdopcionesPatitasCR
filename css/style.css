@@ -1,0 +1,147 @@
+*{
+	background: lightpink;
+}
+img{
+	height: 50vh;
+	width: 70vh;
+	background: lightpink;
+}
+
+*{
+	background: lightpink;
+}
+.grid-layout{
+	display: grid;
+	grid-template-areas: 
+						'Contenido Img'
+						'Footer Footer';
+	grid-template-rows: 90% 10% auto 30%;
+	grid-template-columns: auto 70%;
+	background: lightpink;
+	height: 650px;
+
+}
+.c1{
+		grid-area: Header;
+		background: pink;
+}
+.c3{
+	grid-area: Contenido;
+	background: lightpink;
+	font-family: 'Raleway', sans-serif;
+	font-size: 34px;
+	margin-top: 150px;
+	margin-bottom: 120px;
+	text-align: center;
+	margin-left: 120px;
+}
+.c4{
+	grid-area: Img;
+	background: lightpink;
+	align-items:center;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0px;
+	margin-left: 150px;
+}
+.c5{
+	grid-area: Footer;
+	background: lightpink;
+	padding: 0px;
+	margin-top: 50px;
+	font-size: 50px;
+	color: lightpink;
+}
+.col-4{
+	font-size: 50px;
+	text-align: center;
+	background: lightpink;
+
+}
+.img-fluid{
+	width: 950px;
+	margin-top: 50px;
+
+}
+.navbar-brand{
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 60px;
+	height: 40px;
+}
+.nav-link item{
+font-family: 'Fredericka the Great', cursive;
+}
+.carousel{
+	width: 1520px;
+	max-width: 120em;
+	background-color: lightpink;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+
+}
+.footer{_
+	text-align: center;
+	font-size: 50px;
+	color: ghostwhite;
+}
+.btn{
+	margin-top: 170px;
+	width: 170px;
+	height: 85px;
+
+}
+
+
+#galeria .col-lg-4{
+	padding: 25px;
+	margin: 0 !important;
+}
+#galeria img{
+
+	width: 100%;
+	height: 300px;
+
+}
+#galeria img:hover{
+	border: 5px solid #f7f7f7;
+
+}
+.text-center{
+	font-family: 'Raleway', sans-serif;
+}
+.row{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+.p1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 55px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 180px;
+}
+
+
+.p2{
+
+	font-family: 'Raleway', sans-serif;
+	font-size: 55px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.p3{
+	font-family: 'Raleway', sans-serif;
+	font-size: 55px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 100px;
+}
+.btn1{
+	margin-top: 25px;
+	background: ghostwhite;
+}
